@@ -171,6 +171,13 @@ console.log(`your mind thinks ${changeMyMind}`);
 
 //CODE HERE
 
+if (changeMyMind !== true) {
+  changeMyMind = true;
+}
+
+console.log(`your mind thinks ${changeMyMind}`);
+
+
 ////////// ADVANCED PROBLEMS //////////
 
 ////////// PROBLEM 11 //////////
