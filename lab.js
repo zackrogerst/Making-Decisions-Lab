@@ -101,7 +101,7 @@ else if (temperature < 60 && rain === false) {
 //CODE HERE
 
 for (i = 0; i < 10; i++) {
-  console.log("hello")
+  console.log("hello");
 }
 
 ////////// PROBLEM 6 //////////
@@ -113,7 +113,7 @@ for (i = 0; i < 10; i++) {
 //CODE HERE
 
 for (i = 1; i <= 10; i++) {
-  console.log(i)
+  console.log(i);
 }
 
 ////////// PROBLEM 7 //////////
@@ -124,6 +124,9 @@ for (i = 1; i <= 10; i++) {
 
 //CODE HERE
 
+for (i = 10; i >= 0; i--) {
+  console.log(i);
+}
 
 ////////// PROBLEM 8 //////////
 
