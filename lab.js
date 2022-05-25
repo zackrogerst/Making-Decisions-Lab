@@ -79,7 +79,7 @@ else if (temperature >= 60 && rain === true) {
   console.log("You should wear a rain jacket");
 }
 else if (temperature < 60 && rain === true) {
-  console.log("You should wear a rain jacket and carry an umbrella")
+  console.log("You should wear a rain jacket and carry an umbrella");
 }
 if (temperature >= 80 && rain === false) {
   console.log("You should wear a t-shirt");
@@ -191,7 +191,7 @@ let z = 5;
 //CODE HERE
 
 while (z > 0) {
-  for (i = z; i >= 1; i--){
+  for (i = z; i >= 1; i--) {
     console.log(i);
   }
   z--;
