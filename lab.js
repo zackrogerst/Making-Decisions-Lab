@@ -46,11 +46,11 @@ if (amysAge > brittanisAge) {
 
 //CODE HERE
 
-if (amysBirthYear > brittanisBirthYear || brittanisBirthYear > amysBirthYear) {
-  console.log("Amy & Brittani were not born in the same year.");
-} else {
-  console.log("Amy & Brittani were born in the same year.");
-}
+// if (amysBirthYear > brittanisBirthYear || brittanisBirthYear > amysBirthYear) {
+//   console.log("Amy & Brittani were not born in the same year.");
+// } else {
+//   console.log("Amy & Brittani were born in the same year.");
+// }
 
 // alternative solution to problem 3
 
@@ -97,7 +97,12 @@ else if (temperature < 60 && rain === false) {
   Create a for-loop that runs 10 times, and on each iteration logs the word 'hello'.
 */
 
+
 //CODE HERE
+
+for (i = 0; i < 10; i++) {
+  console.log("hello")
+}
 
 ////////// PROBLEM 6 //////////
 
@@ -106,6 +111,10 @@ else if (temperature < 60 && rain === false) {
 */
 
 //CODE HERE
+
+for (i = 1; i <= 10; i++) {
+  console.log(i)
+}
 
 ////////// PROBLEM 7 //////////
 
